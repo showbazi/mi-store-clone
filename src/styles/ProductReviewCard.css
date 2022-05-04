@@ -1,0 +1,44 @@
+.cardContainer {
+    /* width: 30vw; */
+    margin: 0.5rem;
+    transition: all 0.4s;
+    padding-bottom: 1.85rem;
+    background-color: white;
+}
+
+.cardContainer:hover {
+    box-shadow: 6px 6px 6px rgba(53, 53, 53, 0.363);
+    transform: translateY(-0.4vmax);
+}
+
+.cardContainer img {
+    margin-bottom: 0.7rem;
+    cursor: pointer;
+    /* border: 2px solid red; */
+}
+
+.cardContainer h5 {
+    cursor: pointer;
+    padding: 0.5rem 0 0 1.3rem;
+    color: rgb(94, 94, 94);
+    font-size: 1.125rem;
+}
+
+.cardContainer span {
+    cursor: pointer;
+    color: rgb(94, 94, 94);
+    font-weight: 500;
+    margin-bottom: 2rem;
+}
+
+.cardContainer  b {
+    color: orangered;
+}
+
+.cardContainer span,
+.cardContainer b {
+    padding: 0 0.6rem 0 1.3rem;
+    font-size: 0.875rem;
+    /* border: 2px solid red; */
+    opacity: 0.8;
+}

@@ -1,0 +1,31 @@
+.hotAccessories {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    width: 90vw;
+    /* border: 1px solid red; */
+    margin: auto;
+}
+
+.hotAccessories > div:first-child > img {
+    /* border: 2px solid blue; */
+    width: 22vw;
+    cursor: pointer;
+    transition: all 0.4s;
+}
+
+.hotAccessories > div:first-child > img:hover {
+    box-shadow: 6px 6px 20px rgba(53, 53, 53, 0.363);
+    transform: translateY(-0.4rem);
+}
+
+.hotAccessories > div:last-child {
+    /* border: 2px solid blue; */
+    cursor: pointer;
+    height: 39rem;
+    display: flex;   
+    justify-content: space-between;
+    gap: 1rem;
+    flex-wrap: wrap;
+    overflow: hidden;
+}

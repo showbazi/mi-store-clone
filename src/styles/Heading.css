@@ -1,0 +1,30 @@
+.heading {
+    margin: 68px 104px 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: #757575; */
+}
+
+.heading > p {
+    font-size: 2.3vmax;
+    font-weight: lighter;
+    color: #616161;
+    font-family: Calibri, 'Trebuchet MS', sans-serif;
+    text-transform: uppercase;
+    line-height: 30px;
+    margin: 0 38px;
+
+}
+
+.heading > div {
+    width: 26vw;
+    height: 1px;
+    background-color: rgba(59, 59, 59, 0.274);
+ 
+}
+
+
+
+
+
